@@ -221,7 +221,9 @@ export const getPandaSupply = async (pnda) => {
 
 export const getBambooSupply = async (pnda) => {
 	const bambooStakingContract = getBambooStakingContract(pnda)
-	return new BigNumber(await bambooStakingContract.methods.totalSupply().call())
+	return bambooStakingContract
+		? new BigNumber(await bambooStakingContract.methods.totalSupply().call())
+		: null
 }
 
 export const getReferrals = async (masterChefContract, account) => {
