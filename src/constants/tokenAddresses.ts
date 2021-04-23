@@ -1,6 +1,0 @@
-export const panda = '0x47DcC83a14aD53Ed1f13d3CaE8AA4115f07557C0'
-export const pndav2 = '0x47DcC83a14aD53Ed1f13d3CaE8AA4115f07557C0'
-export const pndaAddress = '0x47DcC83a14aD53Ed1f13d3CaE8AA4115f07557C0'
-export const masterChefAddress = '0x02444a8fEeaD1a2E78da0e2a157f4C7B848aB021'
-export const wbnbPriceAddress = '0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419'
-export const pndaPriceAddress = '0xb2AaEDe065D3ede8Db0C7C25DD69B2A0d0ee4Da3'
